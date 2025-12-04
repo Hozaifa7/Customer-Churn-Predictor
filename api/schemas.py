@@ -25,9 +25,9 @@ class InternetServiceEnum(str, Enum):
     fiber_optic = "Fiber optic"
     no = "No"
 
-class ZeroOneEnum(str, Enum):
-    zero = "0"
-    one = "1"
+class ZeroOneEnum(int, Enum):
+    zero = 0
+    one = 1
 
 class MultipleLinesEnum(str, Enum):
     no_phone_service = "No phone service"
