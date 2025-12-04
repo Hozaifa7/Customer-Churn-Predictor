@@ -1,0 +1,30 @@
+{
+  "model_name": "customer_churn_lr",
+  "version": "1.0.0",
+  "target": "Churn",
+  "input_features": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "tenure",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProctection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "MonthlyCharges",
+    "TotalCharges"
+  ],
+  "model_type": "Logistic Regression",
+  "framework": "scikit-learn",
+  "trained_on": "Telco Customer Churn dataset",
+  "notes": "Includes preprocessing pipeline inside the model."
+}
