@@ -7,7 +7,7 @@ API_URL = "https://customer-churn-predictor-6q1x.onrender.com/predict"
 # PAGE CONFIGURATION
 st.set_page_config(page_title="Customer Churn Predictor", layout="wide")
 # Centered image at the top
-image_file = "churn.png"
+image_file = "https://miro.medium.com/v2/resize:fit:1100/format:webp/1*47xx1oXuebvYwZeB0OutuA.png"
 # Create three columns: the center one is where the image goes
 col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
@@ -230,3 +230,4 @@ if st.button("Predict Churn", type="primary"):
 
     except Exception as e:
         st.error(f"Unexpected error: {e}")
+
