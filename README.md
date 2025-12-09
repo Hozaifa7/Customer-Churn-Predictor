@@ -1,7 +1,7 @@
 
 ---
 
-# **Customer Churn Prediction – End-to-End Production ML System**
+# **Customer Churn Prediction – End-to-End ML System**
 
 ### 🚀 **Machine Learning • FastAPI • Docker • Render • Streamlit UI**
 
@@ -276,4 +276,4 @@ Each phase includes:
 This project demonstrates the **full lifecycle of a machine learning system**, from data exploration to cloud deployment, with real-world production techniques.
 It is designed to be clear, reproducible, and intuitive for hiring managers and technical reviewers.
 
-
+---
