@@ -35,9 +35,6 @@ The system includes:
 
 ```
 Customer-Churn-Predictor/
-│
-├── notebooks/
-│   └── Customer Churn.ipynb
 ├── api/
 │   ├── tests/
 │   │   └── test_api.py
@@ -60,6 +57,8 @@ Customer-Churn-Predictor/
 │   ├── model_version.txt
 │   ├── requirements.txt
 │   └── __init__.py
+├── notebooks/
+│   └── Customer Churn.ipynb
 ├── streamlit_app/
 │   ├── app.py              # Streamlit application
 │   ├── Churn.png
@@ -147,15 +146,15 @@ Target:
 * Logistic Regression classifier
 * Class_weight="balanced" to handle imbalance
 
-### Key Metrics (example placeholder; replace with actual):
+### Key Metrics:
 
 | Metric    | Score |
 | --------- | ----- |
-| Accuracy  | XX.X% |
-| Precision | XX.X% |
-| Recall    | XX.X% |
-| F1-score  | XX.X% |
-| ROC AUC   | XX.X% |
+| Accuracy  | 73% |
+| Precision | 81% |
+| Recall    | 75% |
+| F1-score  | 60% |
+| ROC AUC   | 82.2% |
 
 ---
 
