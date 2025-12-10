@@ -1,14 +1,24 @@
 
 ---
-
-# **Customer Churn Prediction – End-to-End ML System**
+<div align="center">
+    
+# **Customer Churn Prediction System**
 
 ### 🚀 **Machine Learning • FastAPI • Docker • Render • Streamlit UI**
 
-This project is a **full production-level machine learning system** built to predict telecom customer churn.
-It follows real industry workflows: **data cleaning → modeling → MLOps → API deployment → UI frontend**.
+This project is a **full production-level machine learning system** built to predict telecom customer churn.  
+It follows real industry workflows: **data cleaning → modeling → MLOps → API deployment → UI frontend**.  
 
-The system includes:
+![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.110.0-teal.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-1.38-red.svg)
+![Docker](https://img.shields.io/badge/Docker-Enabled-blue.svg)
+![Render](https://img.shields.io/badge/Deployed%20on-Render-46E3B7.svg)
+![Status](https://img.shields.io/badge/Status-Active-success.svg)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+</div>
+The system includes:  
+
 
 * ✅ A trained ML model (Logistic Regression)
 * ✅ A FastAPI microservice wrapped in Docker
@@ -16,6 +26,10 @@ The system includes:
 * ✅ A Streamlit user interface
 * ✅ Complete validation, testing, and documentation
 * ✅ Production practices: schema validation, column consistency checks, unit tests, versioning
+
+
+
+
 
 ---
 
